@@ -234,6 +234,9 @@
       <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/views/generator.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/views/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/views/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall" beforeDir="false" afterPath="$PROJECT_DIR$/gmall" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/BrandController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/LICENSE" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/pom.xml" beforeDir="false" />
@@ -432,6 +435,12 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../gmall/gmall-gateway/pom.xml" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -531,7 +540,7 @@
       <workItem from="1604068968764" duration="459000" />
       <workItem from="1604069446676" duration="907000" />
       <workItem from="1604103647890" duration="53000" />
-      <workItem from="1604103711597" duration="372000" />
+      <workItem from="1604103711597" duration="2319000" />
     </task>
     <servers />
   </component>
@@ -591,6 +600,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="498" y="38" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604103961415" />
+    <state x="513" y="165" key="VcsDiffUtil.ChangesDialog" timestamp="1604105832566">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="513" y="165" key="VcsDiffUtil.ChangesDialog/0.0.1536.824@0.0.1536.824" timestamp="1604105832566" />
     <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1604062844646">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
