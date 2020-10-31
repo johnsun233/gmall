@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fc74dd2d-9931-45b5-abfc-a163e3b99e8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../gmall/gmall-gateway/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../gmall/gmall-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/GamllPmsApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/AttrController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/AttrGroupController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/BrandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/CategoryBrandController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/CommentReplayController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/SkuAttrValueController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/SkuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/SkuImagesController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/SpuAttrValueController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/SpuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/SpuDescController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/entity/AttrEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/entity/AttrGroupEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/entity/BrandEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/entity/CategoryBrandEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/entity/CategoryEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/entity/CommentEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/entity/CommentReplayEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/entity/SkuAttrValueEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/entity/SkuEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/entity/SkuImagesEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/entity/SpuAttrValueEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/entity/SpuDescEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/entity/SpuEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/mapper/AttrGroupMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/mapper/AttrMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/mapper/BrandMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/mapper/CategoryBrandMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/mapper/CategoryMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/mapper/CommentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/mapper/CommentReplayMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/mapper/SkuAttrValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/mapper/SkuImagesMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/mapper/SkuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/mapper/SpuAttrValueMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/mapper/SpuDescMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/mapper/SpuMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/AttrGroupService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/AttrService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/BrandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/CategoryBrandService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/CategoryService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/CommentReplayService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/SkuAttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/SkuImagesService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/SkuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/SpuAttrValueService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/SpuDescService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/SpuService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/impl/AttrGroupServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/impl/AttrServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/impl/BrandServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/impl/CategoryBrandServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/impl/CategoryServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/impl/CommentReplayServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/impl/CommentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/impl/SkuAttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/impl/SkuImagesServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/impl/SkuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/impl/SpuAttrValueServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/impl/SpuDescServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/service/impl/SpuServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/resources/bootstrap.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/resources/mapper/pms/AttrGroupMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/resources/mapper/pms/AttrMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/resources/mapper/pms/BrandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/resources/mapper/pms/CategoryBrandMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/resources/mapper/pms/CategoryMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/resources/mapper/pms/CommentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/resources/mapper/pms/CommentReplayMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/resources/mapper/pms/SkuAttrValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/resources/mapper/pms/SkuImagesMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/resources/mapper/pms/SkuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/resources/mapper/pms/SpuAttrValueMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/resources/mapper/pms/SpuDescMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/main/resources/mapper/pms/SpuMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gamll-pms/src/test/java/com/atguigu/gamll/pms/GamllPmsApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/GmallGeneratorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/config/DbConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/controller/SysGeneratorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/dao/GeneratorDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/dao/MySQLGeneratorDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/dao/OracleGeneratorDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/dao/PostgreSQLGeneratorDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/dao/SQLServerGeneratorDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/entity/ColumnEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/entity/TableEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/service/SysGeneratorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/GenUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/PageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/RRException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/RRExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/generator.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/mapper/MySQLGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/mapper/OracleGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/mapper/PostgreSQLGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/mapper/SQLServerGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/css/AdminLTE.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/css/all-skins.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/js/generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/libs/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/libs/app.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/libs/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/libs/fastclick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/libs/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/libs/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/libs/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/libs/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/jqgrid/grid.locale-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/jqgrid/jquery.jqGrid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/jqgrid/ui.jqgrid-bootstrap-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/jqgrid/ui.jqgrid-bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/jqgrid/ui.jqgrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/layer/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/layer/mobile/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/layer/mobile/need/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/moon/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/moon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/template/Controller.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/template/Dao.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/template/Dao.xml.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/template/Entity.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/template/Service.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/template/ServiceImpl.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/template/add-or-update.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/template/index.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/template/menu.sql.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/views/generator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/main/resources/views/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/src/test/java/com/atguigu/generator/RenrenApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/generator.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/mapper/MySQLGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/mapper/OracleGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/mapper/PostgreSQLGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/mapper/SQLServerGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/css/AdminLTE.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/css/all-skins.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/js/generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/libs/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/libs/app.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/libs/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/libs/fastclick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/libs/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/libs/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/libs/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/libs/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/jqgrid/grid.locale-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/jqgrid/jquery.jqGrid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/jqgrid/ui.jqgrid-bootstrap-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/jqgrid/ui.jqgrid-bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/jqgrid/ui.jqgrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/layer/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/layer/mobile/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/layer/mobile/need/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/layer/skin/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/layer/skin/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/layer/skin/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/layer/skin/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/layer/skin/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/layer/skin/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/layer/skin/moon/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/static/plugins/layer/skin/moon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/template/Controller.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/template/Dao.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/template/Dao.xml.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/template/Entity.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/template/Service.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/template/ServiceImpl.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/template/add-or-update.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/template/index.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/template/menu.sql.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/views/generator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmall/gmall-generator/target/classes/views/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/gmall/gamll-pms/src/main/java/com/atguigu/gamll/pms/controller/BrandController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/GmallGeneratorApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/config/DbConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/controller/SysGeneratorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/dao/GeneratorDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/dao/MySQLGeneratorDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/dao/OracleGeneratorDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/dao/PostgreSQLGeneratorDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/dao/SQLServerGeneratorDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/entity/ColumnEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/entity/TableEntity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/service/SysGeneratorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/Constant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/DateUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/GenUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/PageUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/Query.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/R.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/RRException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/java/com/atguigu/generator/utils/RRExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/generator.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/mapper/MySQLGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/mapper/OracleGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/mapper/PostgreSQLGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/mapper/SQLServerGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/css/AdminLTE.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/css/all-skins.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/js/generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/libs/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/libs/app.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/libs/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/libs/fastclick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/libs/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/libs/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/libs/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/libs/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/jqgrid/grid.locale-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/jqgrid/jquery.jqGrid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/jqgrid/ui.jqgrid-bootstrap-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/jqgrid/ui.jqgrid-bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/jqgrid/ui.jqgrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/layer/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/layer/mobile/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/layer/mobile/need/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/moon/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/static/plugins/layer/skin/moon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/template/Controller.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/template/Dao.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/template/Dao.xml.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/template/Entity.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/template/Service.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/template/ServiceImpl.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/template/add-or-update.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/template/index.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/template/menu.sql.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/views/generator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/main/resources/views/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/src/test/java/com/atguigu/generator/RenrenApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/generator.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/mapper/MySQLGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/mapper/OracleGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/mapper/PostgreSQLGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/mapper/SQLServerGeneratorDao.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/css/AdminLTE.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/css/all-skins.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/css/font-awesome.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/fonts/FontAwesome.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/fonts/fontawesome-webfont.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/fonts/fontawesome-webfont.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/fonts/fontawesome-webfont.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/fonts/fontawesome-webfont.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/fonts/fontawesome-webfont.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/fonts/glyphicons-halflings-regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/js/generator.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/js/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/libs/app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/libs/app.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/libs/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/libs/fastclick.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/libs/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/libs/jquery.slimscroll.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/libs/router.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/libs/vue.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/jqgrid/grid.locale-cn.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/jqgrid/jquery.jqGrid.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/jqgrid/ui.jqgrid-bootstrap-ui.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/jqgrid/ui.jqgrid-bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/jqgrid/ui.jqgrid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/layer/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/layer/mobile/layer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/layer/mobile/need/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/layer/skin/default/icon-ext.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/layer/skin/default/icon.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/layer/skin/default/layer.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/layer/skin/default/loading-0.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/layer/skin/default/loading-1.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/layer/skin/default/loading-2.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/layer/skin/moon/default.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/static/plugins/layer/skin/moon/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/template/Controller.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/template/Dao.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/template/Dao.xml.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/template/Entity.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/template/Service.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/template/ServiceImpl.java.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/template/add-or-update.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/template/index.vue.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/template/menu.sql.vm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/views/generator.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gmall/gmall-generator/target/classes/views/main.html" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="project-0522" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../gmall" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="E:/javaInstall/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jbA7yMAiQRTj8VDNSrl0bxGxZe" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gmall/gmall-gateway/pom.xml" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.GamllPmsApplication">
+    <configuration name="GamllPmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-pms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gamll.pms.GamllPmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallAdminMainApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.GmallAdminMainApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.gateway.GmallGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallGeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.generator.GmallGeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallOmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-oms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.oms.GmallOmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallSmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-sms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.sms.GmallSmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallUmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-ums" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.ums.GmallUmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GmallWmsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gmall-wms" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.wms.GmallWmsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fc74dd2d-9931-45b5-abfc-a163e3b99e8c" name="Default Changelist" comment="" />
+      <created>1604062253202</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604062253202</updated>
+      <workItem from="1604062254760" duration="51000" />
+      <workItem from="1604062320554" duration="53000" />
+      <workItem from="1604062486895" duration="9000" />
+      <workItem from="1604062508595" duration="190000" />
+      <workItem from="1604062714663" duration="109000" />
+      <workItem from="1604062833149" duration="40000" />
+      <workItem from="1604063743252" duration="67000" />
+      <workItem from="1604063817648" duration="460000" />
+      <workItem from="1604064279611" duration="6000" />
+      <workItem from="1604064288171" duration="500000" />
+      <workItem from="1604067832356" duration="1116000" />
+      <workItem from="1604068968764" duration="459000" />
+      <workItem from="1604069446676" duration="907000" />
+      <workItem from="1604103647890" duration="53000" />
+      <workItem from="1604103711597" duration="372000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604063838944">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1604063838944" />
+    <state x="516" y="281" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog" timestamp="1604063807163">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="516" y="281" key="#com.intellij.ide.actions.ChooseComponentsToExportDialog/0.0.1536.824@0.0.1536.824" timestamp="1604063807163" />
+    <state x="543" y="153" key="FileChooserDialogImpl" timestamp="1604069737682">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="543" y="153" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1604069737682" />
+    <state width="1493" height="322" key="GridCell.Tab.0.bottom" timestamp="1604070353444">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="322" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604070353444" />
+    <state width="1493" height="322" key="GridCell.Tab.0.center" timestamp="1604070353444">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="322" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604070353444" />
+    <state width="1493" height="322" key="GridCell.Tab.0.left" timestamp="1604070353444">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="322" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604070353444" />
+    <state width="1493" height="322" key="GridCell.Tab.0.right" timestamp="1604070353444">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="322" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604070353444" />
+    <state width="1493" height="322" key="GridCell.Tab.1.bottom" timestamp="1604070353444">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="322" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604070353444" />
+    <state width="1493" height="322" key="GridCell.Tab.1.center" timestamp="1604070353444">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="322" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1604070353444" />
+    <state width="1493" height="322" key="GridCell.Tab.1.left" timestamp="1604070353444">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="322" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1604070353444" />
+    <state width="1493" height="322" key="GridCell.Tab.1.right" timestamp="1604070353444">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="322" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1604070353444" />
+    <state x="679" y="168" width="734" height="604" key="NewModule_or_Project.wizard" timestamp="1604068145018">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="679" y="168" width="734" height="604" key="NewModule_or_Project.wizard/0.0.1536.824@0.0.1536.824" timestamp="1604068145018" />
+    <state x="498" y="38" width="996" height="707" key="SettingsEditor" timestamp="1604103961415">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="498" y="38" width="996" height="707" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1604103961415" />
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1604062844646">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="449" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1604062844646" />
+    <state x="262" y="188" key="new project wizard" timestamp="1604069223202">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="262" y="188" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1604069223202" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1604070202637">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1604070202637" />
+  </component>
+</project>

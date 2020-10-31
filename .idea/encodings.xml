@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../gmall/gmall-admin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gmall/gmall-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gmall/gmall-gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gmall/gmall-generator/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gmall/gmall-oms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gmall/gmall-pms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gmall/gmall-sms/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gmall/gmall-ums/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../gmall/gmall-wms/src/main/java" charset="UTF-8" />
+  </component>
+</project>
